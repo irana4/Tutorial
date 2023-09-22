@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISHA RANA</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file (if you have one) -->
+</head>
+<body>
+    <!-- Step 1: HTML Skeleton -->
+    <header>
+        <!-- Step 2: Navigation Bar -->
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li> <!-- Navigation links to different sections -->
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Step 3: Hero Section -->
+    <section id="home"> <!-- Unique ID for this section -->
+        <h1>ISHA RANA</h1>
+		<p>Software Engineer</p>
+		<div class="image-container">
+			<img id="myImage" src="hero-image.jpg" alt="Hero Image">
+		</div>
+        <a href="#contact" class="button">Contact Me</a> <!-- Link to the contact section -->
+    </section>
+
+    <!-- Step 4: About Me Section -->
+    <section id="about"> <!-- Unique ID for this section -->
+        <h2>About Me</h2>
+		<div class="image-container">
+			<img id="myImage" src="Coding.jpg" alt="About Me Image">
+		</div>
+        <p>I'm a software engineering student with a passion for creating beautiful and functional projects in many different coding language.</p>
+        <ul>
+            <li>Skilled in many different languages</li>
+            <li>Detail-oriented and creative</li>
+            <li>Constantly learning and improving</li>
+        </ul>
+    </section>
+
+    <!-- Step 5: Work Experience Section -->
+    <section id="experience"> <!-- Unique ID for this section -->
+        <h2>Work Experience</h2>
+		<div class="image-container">
+			<img id="myImage" src="work.jpg" alt="Work Image">
+		</div>
+        <div class="work-experience">
+            <h3>Coding Instuctor at Nuclear Innovation Institute</h3>
+            <p>Experience teaching elementary and middle school students coding fundamentals including Scratch, Python, Java, HTML, and Raspberry PI.</p>
+        </div>
+        <div class="work-experience">
+            <h3>STEAM Camp Teacher at TMBUK2 Education Inc.</h3>
+            <p>Experience teaching kindergarden and elementary students science, technology, engineering and mathematics.</p>
+        </div>
+    </section>
+
+    <!-- Step 6: Contact Me Section -->
+    <section id="contact"> <!-- Unique ID for this section -->
+        <h2>Contact Me</h2>
+		<form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required> <!-- Input fields for name, email, and message -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Submit</button> <!-- Submit button (doesn't actually send a form) -->
+        </form>
+    </section>
+
+    <!-- Step 7: Footer -->
+    <footer>
+        <p>Isha Rana's Portfolio</p> <!-- Footer text -->
+    </footer>
+</body>
+</html>

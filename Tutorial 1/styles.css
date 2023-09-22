@@ -1,0 +1,162 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Header and navigation styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Hero section styles */
+#home {
+    text-align: center;
+    padding: 100px 0;
+}
+
+#home h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#home img {
+    max-width: 100%;
+    height: auto;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* About Me section styles */
+#about {
+    background-color: #fff;
+    padding: 50px;
+}
+
+#about h2 {
+    font-size: 1.5em;
+}
+
+#about p {
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+#about ul {
+    margin-top: 20px;
+}
+
+#about li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+/* Work Experience section styles */
+#experience {
+    background-color: #f0f0f0;
+    padding: 50px;
+}
+
+#experience h2 {
+    font-size: 1.5em;
+}
+
+.work-experience {
+    margin-top: 20px;
+}
+
+.work-experience h3 {
+    font-size: 1.2em;
+}
+
+.work-experience p {
+    font-size: 1.1em;
+}
+
+/* Contact Me section styles */
+#contact {
+    background-color: #fff;
+    padding: 50px;
+}
+
+#contact h2 {
+    font-size: 1.5em;
+}
+
+form label {
+    display: block;
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+/* styles.css */
+
+/* Center the image horizontally and vertically */
+.image-container {
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    height: 100vh; /* Make the container full height of the viewport */
+}
+
+/* Resize the image */
+#myImage {
+    max-width: 50%; /* Adjust the image width to fit its container */
+    max-height: 50%; /* Adjust the image height to fit its container */
+    /* You can also specify specific width and height values, e.g., width: 300px; height: 200px; */
+}
